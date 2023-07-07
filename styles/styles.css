@@ -17,6 +17,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /* margin: 0px 30px; */
+  /* padding: 50px 0px; */
 }
 .nav-title {
   color: #181818;
@@ -36,4 +38,17 @@ nav a {
   color: #474747;
   font-size: 20px;
   font-weight: 400;
+}
+/* header related styles */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 10px 10px 0px 130px;
+  display: flex;
+  align-items: center;
+}
+.banner .pro-pic {
+  width: 584px;
+  height: 676px;
 }
