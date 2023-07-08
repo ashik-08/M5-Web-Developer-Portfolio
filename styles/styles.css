@@ -47,9 +47,9 @@ nav a {
 /* header related styles */
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"), url(../images/developer.png);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, 4% 50%;
 }
 .banner {
   /* padding: 10px 10px 0px 130px; */
@@ -239,4 +239,35 @@ main section {
 .download-cv-btn {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 113px;
+}
+
+/* footer styles */
+footer {
+  display: flex;
+  /* gap: 117px; */
+  background: #fff8f3;
+  /* width: 1600px;
+  height: 780px; */
+  padding: 130px 230px;
+}
+.footer-col {
+  width: 50%;
+}
+.social-links img {
+  width: 24px;
+  margin-right: 24px;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  border-radius: 5px;
+  border: 0;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  width: 461px;
 }
