@@ -37,7 +37,7 @@ nav {
   /* margin: 50px 230px 0px 226px; */
   /* padding: 50px 230px 0px 230px; previous */
   /* padding: 50px 0px; */
-  padding: 110px 230px 0px 230px; /* recent change */
+  padding: 65px 230px 0px 230px; /* recent change*/
 }
 .nav-title {
   color: #181818;
@@ -64,7 +64,7 @@ nav a {
   background-color: #fff8f3;
   background-image: url("../images/header_bg.png"), url(../images/developer.png);
   background-repeat: no-repeat;
-  background-position: bottom right, 4% 50%;
+  background-position: bottom right, 4.5% 50%;
   height: 100vh; /* recent change*/
 }
 .banner {
@@ -75,13 +75,13 @@ nav a {
 }
 .banner-content {
   max-width: 585px;
-  margin: 0px 0px 70px 230px; /* recent change*/
+  margin: 0px 0px 25px 230px; /* recent change*/
 }
 .banner .pro-pic {
   /* width: 584px;
   height: 676px; */
   /* height: 100%; */
-  margin: 120px 40px 0px 0px; /* recent change*/
+  margin: 77px 40px 0px 0px; /* recent change*/
 }
 .banner-greet {
   color: #474747;
@@ -111,7 +111,7 @@ nav a {
 
 /* main section styles */
 main {
-  width: 76%; /* recent change*/
+  width: 74%; /* recent change*/
   /* max-width: 1140px; */
   /* max-height: 550px; */
   /* margin: auto auto; */
@@ -133,7 +133,7 @@ main section {
   /* justify-content: center; */
   /* margin: 130px 230px; */
   margin: 130px 0px;
-  padding: 130px 320px; /* recent change*/
+  padding: 130px 220px; /* recent change*/
   /* padding: 131px 157px 131px 156px; */
   /* padding: 130px;
   margin: 130px 0; */
@@ -194,8 +194,8 @@ main section {
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   /* padding: 30px; */
-  width: 350px;
-  height: 370px;
+  width: 310px;
+  height: 360px;
   /* text-align: center; */
   /* justify-content: space-evenly; */
   /* width: 72.5%; */
@@ -227,7 +227,7 @@ main section {
 }
 .resume-container {
   display: flex;
-  gap: 290px;
+  gap: 200px;
   /* justify-content: space-evenly; */
   /* max-width: 1140px; */
   /* width: 90%; */
@@ -257,7 +257,7 @@ main section {
   background-color: #d1d1d1; */
   background: #d1d1d1;
   /* width: 570px; */
-  margin: 0px -255px 0px 0px;
+  margin: 0px -170px 0px 0px;
 }
 /* .resume-des {
   width: 450px;
@@ -274,13 +274,13 @@ main section {
 /* footer styles */
 .footer-contact {
   display: flex;
-  gap: 350px;
+  gap: 200px;
   background: #fff8f3;
   /* width: 1600px;
   height: 780px; */
-  height: 75vh;
+  height: 70vh;
   /* width: 73%; */
-  padding: 130px 240px;
+  padding: 130px 230px;
   /* justify-content: space-evenly; */
 }
 .footer-col {
