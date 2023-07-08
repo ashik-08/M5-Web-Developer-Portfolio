@@ -192,3 +192,51 @@ main section {
   max-width: 201px;
   padding: 0px 33px 30px; /* T LR B */
 }
+/* Resume section styles */
+.resume-col-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 113px;
+}
+.resume-container {
+  display: flex;
+  gap: 130px;
+  /* justify-content: space-evenly; */
+  /* max-width: 1140px; */
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.resume-item-des {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  /* max-width: 511px; */
+  max-width: 450px;
+  padding: 20px 0px 30px;
+}
+.resume-container hr {
+  color: #d1d1d1;
+  max-width: 558px;
+  margin: 0px -90px 0px 0px;
+}
+/* .resume-des {
+  width: 450px;
+} */
+/* #resume-des {
+  width: 450px;
+} */
+.download-cv-btn {
+  text-align: center;
+  margin-top: 50px;
+}
