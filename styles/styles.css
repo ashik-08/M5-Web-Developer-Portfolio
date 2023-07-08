@@ -95,11 +95,14 @@ nav a {
 main {
   max-width: 1140px;
   /* max-height: 550px; */
-  margin: auto auto;
+  /* margin: auto auto; */
   padding: auto auto;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* padding: 130px 230px 0px 230px; */
   /* padding: 209px 157px 221px 156px; */
+}
+main section {
+  margin-top: 130px;
 }
 
 /* about section styles */
@@ -151,4 +154,41 @@ main {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
+}
+/* what i do related styles */
+#what-i-do-des {
+  max-width: 909px;
+  /* text-align: center; */
+  padding: 0px 140px 50px; /* T LR B */
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  /* padding: 30px; */
+  /* max-width: 267px;
+  max-height: 377px; */
+  /* text-align: center; */
+  /* justify-content: space-evenly; */
+}
+.skill > img {
+  padding: 30px 193px 30px 30px;
+}
+.skill-title {
+  color: #181818;
+  /* text-align: center; */
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0px 0px 20px 30px;
+}
+.skill-des {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 201px;
+  padding: 0px 33px 30px; /* T LR B */
 }
